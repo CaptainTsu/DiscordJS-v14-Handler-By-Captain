@@ -3,10 +3,9 @@ A powerful and customizable command handler for Discord.js v14, made to be both 
 
 If you enjoyed the project, please give it a star (⭐️) by clicking the button at the top of the page. Thank you!
 
-<details>
-  ## Configurations
 
-  Customize the behavior of the command handler by adjusting the configuration options. Below is a summary of each configuration category and its options:
+## Configurations
+Customize the behavior of the command handler by adjusting the configuration options in [config.js](./config.js). Below is a summary of each configuration category and its options:
 
  ### General Configs
  ```js
@@ -139,7 +138,6 @@ If you enjoyed the project, please give it a star (⭐️) by clicking the butto
   - **`ResponsesConfig.alloweduserids.reply`**: Message for users not allowed to use the command.
   - **`ResponsesConfig.alloweduserids.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
   - **`ResponsesConfig.alloweduserids.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
-</details>
 
 ## Contributing
 
