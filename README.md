@@ -1,4 +1,4 @@
-# Discord v14 Command Handler - By Captain
+# Discord.js v14 Command Handler - By [Captain](https://guns.lol/tooredcap)
 A powerful and customizable command handler for Discord.js v14, made to be both flexible and efficient. Created by Captain (@toorecap - me ofc),  this handler supports message and slash commands, event handling, and advanced bot functionality with ease.
 
 If you enjoyed the project, please give it a star (⭐️) by clicking the button at the top of the page. Thank you!
