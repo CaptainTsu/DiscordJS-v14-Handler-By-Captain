@@ -4,10 +4,11 @@ A powerful and customizable command handler for Discord.js v14, made to be both 
 If you enjoyed the project, please give it a star (⭐️) by clicking the button at the top of the page. Thank you!
 
 <details>
-  <summary><strong>Configurations</strong></summary>
+  ## Configurations
 
   Customize the behavior of the command handler by adjusting the configuration options. Below is a summary of each configuration category and its options:
 
+ ### General Configs
  ```js
   // General Configs
   module.exports = {
@@ -15,23 +16,44 @@ If you enjoyed the project, please give it a star (⭐️) by clicking the butto
     clientId: ``, // bot id
     token: ``, // bot token
     ownerID: ``, // your id (cannot add multiple)
+```
+  - **`prefix`**: The prefix used to trigger commands (default: `$`).
+  - **`clientId`**: Your bot's client ID (leave empty if not applicable).
+  - **`token`**: Your bot's token (leave empty if not applicable).
+  - **`ownerID`**: Your Discord user ID (only one ID allowed).
 
+### Developer Team
+```js
     developerTeam: {
       memberIDs: [], // add the user IDs of the developer team (can add multiple)
       roleIDs: [],   // add the role IDs of the developer team (can add multiple)
     },
+```
+  - **`developerTeam.memberIDs`**: An array of user IDs who are part of the developer team (multiple IDs allowed).
+  - **`developerTeam.roleIDs`**: An array of role IDs assigned to the developer team (multiple IDs allowed).
 
+### Bot Embed Configs
+```js
     // Bot Embed Configs
     EmbedConfig: {
       embedcolor: `#9b59b6`, // default embed color
     },
+```
+  - **`EmbedConfig.embedcolor`**: Default color for embeds (default: `#9b59b6`).
 
+### Cooldown Configs
+```js
     // Cooldown Configs
     CooldownConfig: {
       defaultCooldown: 5, // default cooldown for commands (in seconds)
       autoDeleteCooldownMsg: 10 // auto delete the cooldown response (in seconds)
     },
+```
+  - **`CooldownConfig.defaultCooldown`**: Default cooldown for commands in seconds (default: 5 seconds).
+  - **`CooldownConfig.autoDeleteCooldownMsg`**: Time in seconds before auto-deleting the cooldown message (default: 10 seconds).
 
+### Responses Config
+```js
     // Responses Config
     ResponsesConfig: {
       botowneronly: {
@@ -81,7 +103,42 @@ If you enjoyed the project, please give it a star (⭐️) by clicking the butto
       }
     }
   }
+```
+  - **`ResponsesConfig.botowneronly.reply`**: Message for commands restricted to the bot owner.
+  - **`ResponsesConfig.botowneronly.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.botowneronly.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
 
+  - **`ResponsesConfig.serverowneronly.reply`**: Message for commands restricted to the server owner.
+  - **`ResponsesConfig.serverowneronly.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.serverowneronly.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.developerteamonly.reply`**: Message for commands restricted to the developer team.
+  - **`ResponsesConfig.developerteamonly.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.developerteamonly.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.nsfw.reply`**: Message for commands that can only be used in NSFW channels.
+  - **`ResponsesConfig.nsfw.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.nsfw.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.memberpermissions.reply`**: Message for insufficient permissions.
+  - **`ResponsesConfig.memberpermissions.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.memberpermissions.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.botpermissions.reply`**: Message for missing bot permissions.
+  - **`ResponsesConfig.botpermissions.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.botpermissions.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.requiredroles.reply`**: Message for missing required roles.
+  - **`ResponsesConfig.requiredroles.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.requiredroles.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.requiredchannels.reply`**: Message for commands that can only be used in specific channels.
+  - **`ResponsesConfig.requiredchannels.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.requiredchannels.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
+
+  - **`ResponsesConfig.alloweduserids.reply`**: Message for users not allowed to use the command.
+  - **`ResponsesConfig.alloweduserids.autoDelete`**: Time in seconds to auto-delete the response (default: 10 seconds).
+  - **`ResponsesConfig.alloweduserids.shouldAutoDelete`**: Whether the response should auto-delete (default: true).
 </details>
 
 ## Contributing
