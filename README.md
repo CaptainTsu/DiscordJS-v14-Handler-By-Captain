@@ -1,7 +1,16 @@
-# Discord.js v14 Command Handler - By [Captain](https://guns.lol/tooredcap)
-A powerful and customizable command handler for Discord.js v14, made to be both flexible and efficient. Created by Captain (@toorecap - me ofc),  this handler supports message and slash commands, event handling, and advanced bot functionality with ease.
+---
 
-If you enjoyed the project, please give it a star (⭐️) by clicking the button at the top of the page. Thank you!
+# Discord.js v14 Command Handler - By [Captain](https://guns.lol/tooredcap)
+
+🚀 **A powerful and customizable command handler for Discord.js v14, made to be both flexible and efficient.**  
+👨‍💻 Created by **Captain** [@toorecap](https://guns.lol/tooredcap) *(me ofc)*, this handler supports message and slash commands, event handling, and advanced bot functionality with ease.
+
+---
+
+⭐️ **If you enjoyed the project, please give it a star by clicking the button at the top of the page.**  
+🙏 **Thank you!**
+
+---
 
 
 ## Configurations
@@ -17,8 +26,8 @@ Customize the behavior of the command handler by adjusting the configuration opt
     ownerID: ``, // your id (cannot add multiple)
 ```
   - **`prefix`**: The prefix used to trigger commands (default: `$`).
-  - **`clientId`**: Your bot's client ID (leave empty if not applicable).
-  - **`token`**: Your bot's token (leave empty if not applicable).
+  - **`clientId`**: Your bot's ID (required to run the bot).
+  - **`token`**: Your bot's token (required to run the bot).
   - **`ownerID`**: Your Discord user ID (only one ID allowed).
 
 ### Developer Team
