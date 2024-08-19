@@ -174,7 +174,7 @@ Contributions are welcome! Please follow these guidelines:
 
 5. **Submit a Pull Request**:
    - Open a pull request from your branch to the `main` branch of the original repository.
-
+---
 ## Support
 If you have any questions or need support with this project, feel free to join our Discord server. For issues or bugs, please visit the [issues section](https://github.com/CaptainTsu/DiscordJS-v14-Handler-captain/issues) and submit a new issue.
 
