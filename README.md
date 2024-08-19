@@ -15,9 +15,11 @@
 <a>
   <img src="https://media.discordapp.net/attachments/1176815431865090159/1275117762091421738/image_2024-08-19_211007567.png?ex=66c4b975&is=66c367f5&hm=2a3ea8bd4b1ff2fd3d0ee282e8f7322fedb6980a4723e6b8e4d1535fa9d44195&=&format=webp&quality=lossless&width=618&height=362" alt="Preview1">
 </a>
+<div style="display: inline-block; width: 10px; height: 100%; background-color: #ccc;"></div>
 <a>
   <img src="https://media.discordapp.net/attachments/1176815431865090159/1275115453806542868/v14_handler.gif?ex=66c4b74e&is=66c365ce&hm=e44dbadf3aa039021cf725153df86c76ed65209ba03f5f1e168e5846c2f336e5&=&width=675&height=635" alt="Preview2">
 </a>
+
 
 ---
 ## Configurations
