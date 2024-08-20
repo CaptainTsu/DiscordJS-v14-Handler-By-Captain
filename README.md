@@ -233,11 +233,10 @@ If you have any questions or need support with this project, feel free to join o
 ---
 
 ### Made by
-<p align="center">
+<p align="left">
   <a href="https://discord.com/users/565854774612983808"> <img align="center" src="https://lanyard.kyrie25.me/api/565854774612983808?waveColor=ffff&waveSpotifyColor=212121&gradient=fff&borderRadius=25px&bg=000"/></a>
   <br>
   <br>
-  <img src="https://komarev.com/ghpvc/?username=tooredcap&color=gray&style=plastic" alt=":name" />
 </p>
 
 ---
