@@ -5,7 +5,7 @@ module.exports = {
     clientId: ``, //bot id
     token: ``, //bot token
     ownerID: ``, //your id (cannot add multiple)
-    guildId: ``,
+    guildId: ``, // Enter a guild ID for guild-specific commands, or leave it blank to load slash commands globally.
 
     developerTeam: {
         memberIDs: [], // add the user IDs of the developer team (can add multiple)
