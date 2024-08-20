@@ -229,7 +229,9 @@ If you have any questions or need support with this project, feel free to join o
 <a href="https://discord.gg/AkWYfFPVdj">
   <img src="https://media.discordapp.net/attachments/1176815431865090159/1275051369363148911/image.png?ex=66c5cd1f&is=66c47b9f&hm=4ab7db925f0b541448cb831c428e7ae47a75b90b62e88223f6ea4cbe61d8af30&=&format=webp&quality=lossless&width=551&height=138">
 </a>
+
 ---
+
 ### Made by
 [![Discord Presence](https://lanyard.cnrad.dev/api/565854774612983808)](https://discord.com/users/565854774612983808)
 
