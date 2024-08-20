@@ -1,5 +1,4 @@
 ---
-# (WILL RELEASE TOMORROW PROBABLY - JOIN DISCORD TILL THE TIME)
 # Discord.js v14 Command Handler - By [Captain](https://guns.lol/tooredcap)
 
 🚀 **A powerful and customizable command handler for Discord.js v14, made to be both flexible and efficient.**  
