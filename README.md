@@ -10,6 +10,33 @@
 🙏 **Thank you!**
 
 ---
+
+## Features
+
+- **Command Handler**
+  - Supports both **slash commands** and **message commands**.
+  - Organize commands in subfolders to define categories.
+  - Categories include: (can create more categories)
+    - **Fun** (for both message and slash commands)
+    - **Info** (for both message and slash commands)
+  - Example Commands:
+    - **Info Category:**
+      - `ping` - Check the bot's latency.
+      - `uptime` - Displays the bot's uptime.
+    - **Fun Category:**
+      - `pp` - A very advanced command with special features.
+
+- **Extensive Configuration**
+  - A comprehensive config file with numerous customizable options.
+
+- **Event Handling**
+  - Easily manage events with a structured event handler.
+
+- **Advanced Console Logs**
+  - Uses **chalk** for colorful and easy-to-read logs.
+  - Enhanced logging with **boxen** for better visibility during bot operations.
+
+---
 ## Preview
 <a>
   <img src="https://media.discordapp.net/attachments/1176815431865090159/1275117762091421738/image_2024-08-19_211007567.png?ex=66c4b975&is=66c367f5&hm=2a3ea8bd4b1ff2fd3d0ee282e8f7322fedb6980a4723e6b8e4d1535fa9d44195&=&format=webp&quality=lossless&width=618&height=362" alt="Preview1">
