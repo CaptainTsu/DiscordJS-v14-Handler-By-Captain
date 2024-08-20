@@ -190,7 +190,7 @@ Contributions are welcome! Please follow these guidelines:
 If you have any questions or need support with this project, feel free to join our Discord server. For issues or bugs, please visit the [issues section](https://github.com/CaptainTsu/DiscordJS-v14-Handler-By-Captain/issues) and submit a new issue.
 
 <a href="https://discord.gg/AkWYfFPVdj">
-  <img src="https://cdn.discordapp.com/attachments/1176815431865090159/1275051369363148911/image.png?ex=66c47b9f&is=66c32a1f&hm=57bdc338956c03520b743dcdd8a208f78b739da9a2681e796ff16be19931c822&">
+  <img src="https://media.discordapp.net/attachments/1176815431865090159/1275051369363148911/image.png?ex=66c5cd1f&is=66c47b9f&hm=4ab7db925f0b541448cb831c428e7ae47a75b90b62e88223f6ea4cbe61d8af30&=&format=webp&quality=lossless&width=551&height=138">
 </a>
 
 ---
