@@ -18,7 +18,7 @@
 - [Configurations](#configurations)
 - [Contributing](#contributing)
 - [Support](#support)
-- [Made By](#made_by)
+- [Made By](#made-by)
 - [License](#license)
 
 ---
@@ -233,7 +233,7 @@ If you have any questions or need support with this project, feel free to join o
 
 ---
 
-### Made by
+## Made by
 <p align="left">
   <a href="https://discord.com/users/565854774612983808"> <img align="center" src="https://lanyard.kyrie25.me/api/565854774612983808?waveColor=ffff&waveSpotifyColor=212121&gradient=fff&borderRadius=25px&bg=000"/></a>
   <br>
