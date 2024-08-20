@@ -18,7 +18,7 @@
 - [Configurations](#configurations)
 - [Contributing](#contributing)
 - [Support](#support)
-- [Made By](#madeby)
+- [Made By](#made_by)
 - [License](#license)
 
 ---
