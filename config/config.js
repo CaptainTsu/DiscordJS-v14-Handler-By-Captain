@@ -1,8 +1,8 @@
+
 module.exports = {
 
 // General Configs
-    prefix: `$`,
-    clientId: ``, //bot id
+    prefix: `$`, //Add a prefix for message commands, or leave it blank to disable message commands.
     token: ``, //bot token
     ownerID: ``, //your id (cannot add multiple)
     guildId: ``, // Enter a guild ID for guild-specific commands, or leave it blank to load slash commands globally.
@@ -21,6 +21,14 @@ module.exports = {
     CooldownConfig: {
         defaultCooldown: 5, //default cooldown for commands (it's 5 seconds here)
         autoDeleteCooldownMsg: 10 //auto delete the response which the bot says "you're on cooldown" (it's 10 seconds here)
+    },
+
+// Text Config (Used in help (command))
+    TextConfig: {
+        color: 'white', //white, teal, pink, light_blue, gold, yellowish_green, red, dark_gray (leave blank for normal)
+        background_color: '', //cream_white, light_gray60, blurple, light_gray55, gray45, gray40, rust_brown, blueish_black (leave blank for normal)
+        bold: true, // Toggle bold text color
+        underline: false, // Toggle bold text color
     },
 
 // Responses Config
