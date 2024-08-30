@@ -6,7 +6,7 @@
 
 ---
 
-⭐️ **If you enjoyed the project, please give it a star by clicking the button at the top of the page.**  
+⭐️ **If you enjoyed the project, please give it a star by clicking the button at the top right of the page.**  
 🙏 **Thank you!**
 
 ---
@@ -33,6 +33,7 @@
     - **Info** (for both message and slash commands)
   - Example Commands:
     - **Info Category:**
+      - `help` - Shows all bot's commands.
       - `ping` - Check the bot's latency.
       - `uptime` - Displays the bot's uptime.
     - **Fun Category:**
