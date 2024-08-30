@@ -21,13 +21,14 @@ const getCommandFiles = (dir) => {
 module.exports = {
     name: 'ready',
     once: true,
-    async execute(client) {
+    async execute(client, error) {
         const boxen = (await import('boxen')).default;
 
         const titleColors = {
             magenta: chalk.bold.bgMagenta.black,
             yellow: chalk.bold.bgYellow.black,
             green: chalk.bold.bgGreen.black,
+            red: chalk.bold.bgRed.black,
         };
 
         const detailColor = chalk.white;
@@ -42,6 +43,21 @@ module.exports = {
                 borderColor: borderColor,
             });
         };
+
+        // Check if there was a login error
+        if (error) {
+            const errorMessage = `
+${titleColors.red('═'.repeat(50))}
+${titleColors.red(' Error Logging In ')}
+${titleColors.red('═'.repeat(50))}
+${detailColor(`Error: ${highlightColor(error.message)}`)}
+${separatorColor('─'.repeat(50))}
+${detailColor(`Timestamp: ${highlightColor(new Date().toLocaleString())}`)}
+${titleColors.red('═'.repeat(50))}
+`;
+            console.log(createBox(errorMessage, 'red'));
+            return; // Exit early if there's an error
+        }
 
         // Get command files from directories
         const messageCommandFiles = getCommandFiles(path.resolve(__dirname, '../commands/messageCommands'));
