@@ -1,6 +1,6 @@
 const { readdirSync } = require('fs');
 const { Collection, REST, Routes } = require('discord.js');
-const config = require('../config/config.js')
+const config = require('../config/config.js');
 
 class CommandHandler {
     constructor(client) {
@@ -33,16 +33,18 @@ class CommandHandler {
             }
         }
 
-        
-        const rest = new REST({ version: '10' }).setToken(config.token);
+        // Register slash commands after the client is ready
+        this.client.once('ready', async () => {
+            const rest = new REST({ version: '10' }).setToken(config.token);
 
-        (async () => {
             try {
                 console.log(`Started refreshing ${config.guildId ? 'guild-specific' : 'global'} (/) commands.`);
-        
+                
+                const clientId = this.client.user.id; // Get the client ID dynamically
+                
                 const route = config.guildId 
-                    ? Routes.applicationGuildCommands(config.clientId, config.guildId)
-                    : Routes.applicationCommands(config.clientId);
+                    ? Routes.applicationGuildCommands(clientId, config.guildId)
+                    : Routes.applicationCommands(clientId);
         
                 await rest.put(route, { body: commands });
         
@@ -50,7 +52,7 @@ class CommandHandler {
             } catch (error) {
                 console.error(error);
             }
-        })();
+        });
     }
 }
 
